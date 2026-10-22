@@ -1,0 +1,25 @@
+{
+  "name": "ufcpredict",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "sync": "tsx scripts/sync.ts",
+    "test": "tsx scripts/test-parsers.ts && tsx scripts/test-settlement.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "next": "^15.5.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
